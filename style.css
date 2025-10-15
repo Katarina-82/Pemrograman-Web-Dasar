@@ -1,0 +1,92 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0 20px;
+  color: #2c3e50;
+  font-size: 2.2em;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: 1.5px solid #b2dfdb;
+  border-radius: 12px;
+  padding: 20px 30px;
+  margin-bottom: 25px;
+  background-color: #fafafa;
+}
+
+legend {
+  font-weight: bold;
+  color: #00695c;
+  font-size: 1.1em;
+}
+
+label {
+  display: block;
+  margin-top: 8px;
+  font-weight: 500;
+  color: #37474f;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1.5px solid #ccc;
+  transition: all 0.3s ease;
+  font-size: 1em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus {
+  border-color: #26a69a;
+  box-shadow: 0 0 6px #26a69a;
+  outline: none;
+}
+
+.radio-group {
+  margin-top: 12px;
+}
+
+input[type="radio"] {
+  margin-right: 12px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  background-color: #26a69a;
+  color: white;
+  font-size: 1.1em;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #00796b;
+  transform: translateY(-2px);
+}
